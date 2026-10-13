@@ -1,0 +1,432 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Realistic city street scene</title>
+  <desc id="desc">A realistic downtown city skyline with cars, road, buildings, and evening lighting.</desc>
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#081322"/>
+      <stop offset="22%" stop-color="#102744"/>
+      <stop offset="50%" stop-color="#1b355a"/>
+      <stop offset="78%" stop-color="#233b5d"/>
+      <stop offset="100%" stop-color="#0b1220"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4d4d4d"/>
+      <stop offset="100%" stop-color="#141414"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff7d6"/>
+      <stop offset="50%" stop-color="#ffd77a"/>
+      <stop offset="100%" stop-color="#e8b24b"/>
+    </linearGradient>
+    <linearGradient id="buildingFront" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e5edf7"/>
+      <stop offset="100%" stop-color="#8297ad"/>
+    </linearGradient>
+    <linearGradient id="buildingSide" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6c7b8b"/>
+      <stop offset="100%" stop-color="#2f3d4a"/>
+    </linearGradient>
+    <linearGradient id="shadowDark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.38"/>
+    </linearGradient>
+    <linearGradient id="carRed" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff7a74"/>
+      <stop offset="100%" stop-color="#bf1f2e"/>
+    </linearGradient>
+    <linearGradient id="carBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6bb7ff"/>
+      <stop offset="100%" stop-color="#0f4b97"/>
+    </linearGradient>
+    <linearGradient id="carSilver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6f9fb"/>
+      <stop offset="100%" stop-color="#a3adb7"/>
+    </linearGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="180%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#1a2433" flood-opacity="0.38"/>
+    </filter>
+    <filter id="streetShadow" x="-20%" y="-20%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#sky)"/>
+  <circle cx="995" cy="112" r="72" fill="#edf6ff" opacity="0.95"/>
+  <circle cx="995" cy="112" r="120" fill="#dfeeff" opacity="0.12"/>
+  <rect x="0" y="0" width="1200" height="700" fill="#0d1423" opacity="0.18"/>
+
+  <g opacity="0.65" fill="#ffffff">
+    <ellipse cx="200" cy="138" rx="58" ry="22"/>
+    <ellipse cx="270" cy="128" rx="48" ry="18"/>
+    <ellipse cx="660" cy="156" rx="74" ry="24"/>
+    <ellipse cx="722" cy="145" rx="59" ry="20"/>
+  </g>
+
+  <g opacity="0.18" fill="#7b96b0">
+    <path d="M0 520 C160 500, 250 500, 330 520 L330 700 L0 700 Z"/>
+    <path d="M875 495 C960 475, 1045 475, 1200 525 L1200 700 L875 700 Z"/>
+  </g>
+
+  <g opacity="0.28" fill="#71859a">
+    <rect x="30" y="430" width="28" height="250"/>
+    <rect x="80" y="388" width="34" height="292"/>
+    <rect x="175" y="420" width="32" height="260"/>
+    <rect x="1090" y="392" width="44" height="288"/>
+    <rect x="1150" y="440" width="26" height="240"/>
+  </g>
+
+  <g opacity="0.55">
+    <polygon points="0,540 230,520 420,540 1200,515 1200,700 0,700" fill="url(#shadowDark)"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <g>
+      <polygon points="48,500 112,468 176,500 176,620 48,620" fill="#c8d0da"/>
+      <polygon points="176,500 176,620 48,620" fill="#b0bac6" opacity="0.75"/>
+      <polygon points="176,500 224,486 224,620 176,620" fill="url(#buildingSide)" opacity="0.9"/>
+      <rect x="74" y="528" width="16" height="22" fill="url(#glass)"/>
+      <rect x="97" y="528" width="16" height="22" fill="url(#glass)"/>
+      <rect x="120" y="528" width="16" height="22" fill="url(#glass)"/>
+      <rect x="143" y="528" width="16" height="22" fill="url(#glass)"/>
+      <rect x="74" y="560" width="16" height="22" fill="url(#glass)"/>
+      <rect x="97" y="560" width="16" height="22" fill="url(#glass)"/>
+      <rect x="120" y="560" width="16" height="22" fill="url(#glass)"/>
+      <rect x="143" y="560" width="16" height="22" fill="url(#glass)"/>
+    </g>
+
+    <g>
+      <polygon points="206,460 274,432 340,460 340,620 206,620" fill="url(#buildingFront)"/>
+      <polygon points="340,460 340,620 206,620" fill="#b1bfca" opacity="0.76"/>
+      <polygon points="340,460 390,438 390,620 340,620" fill="url(#buildingSide)" opacity="0.9"/>
+      <rect x="226" y="490" width="18" height="24" fill="url(#glass)"/>
+      <rect x="252" y="490" width="18" height="24" fill="url(#glass)"/>
+      <rect x="278" y="490" width="18" height="24" fill="url(#glass)"/>
+      <rect x="304" y="490" width="18" height="24" fill="url(#glass)"/>
+      <rect x="226" y="528" width="18" height="24" fill="url(#glass)"/>
+      <rect x="252" y="528" width="18" height="24" fill="url(#glass)"/>
+      <rect x="278" y="528" width="18" height="24" fill="url(#glass)"/>
+      <rect x="304" y="528" width="18" height="24" fill="url(#glass)"/>
+      <rect x="226" y="566" width="18" height="24" fill="url(#glass)"/>
+      <rect x="252" y="566" width="18" height="24" fill="url(#glass)"/>
+      <rect x="278" y="566" width="18" height="24" fill="url(#glass)"/>
+      <rect x="304" y="566" width="18" height="24" fill="url(#glass)"/>
+    </g>
+
+    <g>
+      <polygon points="350,498 416,468 492,498 492,620 350,620" fill="#dfe8f1"/>
+      <polygon points="492,498 492,620 350,620" fill="#bfcbd7" opacity="0.8"/>
+      <polygon points="492,498 538,480 538,620 492,620" fill="url(#buildingSide)" opacity="0.9"/>
+      <rect x="370" y="528" width="18" height="22" fill="url(#glass)"/>
+      <rect x="396" y="528" width="18" height="22" fill="url(#glass)"/>
+      <rect x="422" y="528" width="18" height="22" fill="url(#glass)"/>
+      <rect x="448" y="528" width="18" height="22" fill="url(#glass)"/>
+      <rect x="370" y="560" width="18" height="22" fill="url(#glass)"/>
+      <rect x="396" y="560" width="18" height="22" fill="url(#glass)"/>
+      <rect x="422" y="560" width="18" height="22" fill="url(#glass)"/>
+      <rect x="448" y="560" width="18" height="22" fill="url(#glass)"/>
+    </g>
+
+    <g>
+      <polygon points="506,438 588,404 670,438 670,620 506,620" fill="#e4ebf3"/>
+      <polygon points="670,438 670,620 506,620" fill="#bcc9d6" opacity="0.8"/>
+      <polygon points="670,438 716,418 716,620 670,620" fill="url(#buildingSide)" opacity="0.9"/>
+      <rect x="530" y="472" width="18" height="24" fill="url(#glass)"/>
+      <rect x="558" y="472" width="18" height="24" fill="url(#glass)"/>
+      <rect x="586" y="472" width="18" height="24" fill="url(#glass)"/>
+      <rect x="614" y="472" width="18" height="24" fill="url(#glass)"/>
+      <rect x="642" y="472" width="18" height="24" fill="url(#glass)"/>
+      <rect x="530" y="512" width="18" height="24" fill="url(#glass)"/>
+      <rect x="558" y="512" width="18" height="24" fill="url(#glass)"/>
+      <rect x="586" y="512" width="18" height="24" fill="url(#glass)"/>
+      <rect x="614" y="512" width="18" height="24" fill="url(#glass)"/>
+      <rect x="642" y="512" width="18" height="24" fill="url(#glass)"/>
+      <rect x="530" y="552" width="18" height="24" fill="url(#glass)"/>
+      <rect x="558" y="552" width="18" height="24" fill="url(#glass)"/>
+      <rect x="586" y="552" width="18" height="24" fill="url(#glass)"/>
+      <rect x="614" y="552" width="18" height="24" fill="url(#glass)"/>
+      <rect x="642" y="552" width="18" height="24" fill="url(#glass)"/>
+    </g>
+
+    <g>
+      <polygon points="685,476 735,446 785,476 785,620 685,620" fill="#d9e0e7"/>
+      <polygon points="785,476 785,620 685,620" fill="#b8c3cf" opacity="0.8"/>
+      <polygon points="785,476 828,458 828,620 785,620" fill="url(#buildingSide)" opacity="0.9"/>
+      <rect x="705" y="500" width="13" height="20" fill="url(#glass)"/>
+      <rect x="724" y="500" width="13" height="20" fill="url(#glass)"/>
+      <rect x="743" y="500" width="13" height="20" fill="url(#glass)"/>
+      <rect x="762" y="500" width="13" height="20" fill="url(#glass)"/>
+      <rect x="705" y="536" width="13" height="20" fill="url(#glass)"/>
+      <rect x="724" y="536" width="13" height="20" fill="url(#glass)"/>
+      <rect x="743" y="536" width="13" height="20" fill="url(#glass)"/>
+      <rect x="762" y="536" width="13" height="20" fill="url(#glass)"/>
+      <rect x="705" y="572" width="13" height="20" fill="url(#glass)"/>
+      <rect x="724" y="572" width="13" height="20" fill="url(#glass)"/>
+      <rect x="743" y="572" width="13" height="20" fill="url(#glass)"/>
+      <rect x="762" y="572" width="13" height="20" fill="url(#glass)"/>
+    </g>
+
+    <g>
+      <polygon points="808,416 896,380 980,416 980,620 808,620" fill="#e0e9f0"/>
+      <polygon points="980,416 980,620 808,620" fill="#bdc9d5" opacity="0.8"/>
+      <polygon points="980,416 1020,400 1020,620 980,620" fill="url(#buildingSide)" opacity="0.9"/>
+      <rect x="832" y="452" width="18" height="24" fill="url(#glass)"/>
+      <rect x="858" y="452" width="18" height="24" fill="url(#glass)"/>
+      <rect x="884" y="452" width="18" height="24" fill="url(#glass)"/>
+      <rect x="910" y="452" width="18" height="24" fill="url(#glass)"/>
+      <rect x="936" y="452" width="18" height="24" fill="url(#glass)"/>
+      <rect x="832" y="490" width="18" height="24" fill="url(#glass)"/>
+      <rect x="858" y="490" width="18" height="24" fill="url(#glass)"/>
+      <rect x="884" y="490" width="18" height="24" fill="url(#glass)"/>
+      <rect x="910" y="490" width="18" height="24" fill="url(#glass)"/>
+      <rect x="936" y="490" width="18" height="24" fill="url(#glass)"/>
+      <rect x="832" y="528" width="18" height="24" fill="url(#glass)"/>
+      <rect x="858" y="528" width="18" height="24" fill="url(#glass)"/>
+      <rect x="884" y="528" width="18" height="24" fill="url(#glass)"/>
+      <rect x="910" y="528" width="18" height="24" fill="url(#glass)"/>
+      <rect x="936" y="528" width="18" height="24" fill="url(#glass)"/>
+      <rect x="832" y="566" width="18" height="24" fill="url(#glass)"/>
+      <rect x="858" y="566" width="18" height="24" fill="url(#glass)"/>
+      <rect x="884" y="566" width="18" height="24" fill="url(#glass)"/>
+      <rect x="910" y="566" width="18" height="24" fill="url(#glass)"/>
+      <rect x="936" y="566" width="18" height="24" fill="url(#glass)"/>
+    </g>
+
+    <g>
+      <polygon points="998,492 1058,462 1116,492 1116,620 998,620" fill="#d7dee8"/>
+      <polygon points="1116,492 1116,620 998,620" fill="#b1becb" opacity="0.8"/>
+      <polygon points="1116,492 1158,476 1158,620 1116,620" fill="url(#buildingSide)" opacity="0.9"/>
+      <rect x="1022" y="525" width="15" height="20" fill="url(#glass)"/>
+      <rect x="1044" y="525" width="15" height="20" fill="url(#glass)"/>
+      <rect x="1066" y="525" width="15" height="20" fill="url(#glass)"/>
+      <rect x="1088" y="525" width="15" height="20" fill="url(#glass)"/>
+      <rect x="1022" y="555" width="15" height="20" fill="url(#glass)"/>
+      <rect x="1044" y="555" width="15" height="20" fill="url(#glass)"/>
+      <rect x="1066" y="555" width="15" height="20" fill="url(#glass)"/>
+      <rect x="1088" y="555" width="15" height="20" fill="url(#glass)"/>
+    </g>
+  </g>
+
+  <g opacity="0.8" filter="url(#shadow)">
+    <g>
+      <polygon points="120,520 180,490 238,520 238,620 120,620" fill="#dfe8f2"/>
+      <polygon points="238,520 238,620 120,620" fill="#b7c3d0" opacity="0.8"/>
+      <polygon points="238,520 268,510 268,620 238,620" fill="#6d7a87" opacity="0.8"/>
+      <rect x="138" y="540" width="14" height="18" fill="url(#glass)"/>
+      <rect x="160" y="540" width="14" height="18" fill="url(#glass)"/>
+      <rect x="182" y="540" width="14" height="18" fill="url(#glass)"/>
+      <rect x="204" y="540" width="14" height="18" fill="url(#glass)"/>
+    </g>
+    <g>
+      <polygon points="1030,500 1082,472 1142,500 1142,620 1030,620" fill="#dde8f2"/>
+      <polygon points="1142,500 1142,620 1030,620" fill="#b0bdca" opacity="0.8"/>
+      <polygon points="1142,500 1175,486 1175,620 1142,620" fill="#677784" opacity="0.8"/>
+      <rect x="1048" y="530" width="14" height="18" fill="url(#glass)"/>
+      <rect x="1072" y="530" width="14" height="18" fill="url(#glass)"/>
+      <rect x="1096" y="530" width="14" height="18" fill="url(#glass)"/>
+      <rect x="1120" y="530" width="14" height="18" fill="url(#glass)"/>
+    </g>
+    <g>
+      <polygon points="620,290 672,246 732,290 732,620 620,620" fill="#e7edf6"/>
+      <polygon points="732,290 732,620 620,620" fill="#9caab6" opacity="0.8"/>
+      <polygon points="732,290 778,272 778,620 732,620" fill="#4e5e6a" opacity="0.9"/>
+      <rect x="642" y="326" width="18" height="22" fill="url(#glass)"/>
+      <rect x="668" y="326" width="18" height="22" fill="url(#glass)"/>
+      <rect x="694" y="326" width="18" height="22" fill="url(#glass)"/>
+      <rect x="642" y="360" width="18" height="22" fill="url(#glass)"/>
+      <rect x="668" y="360" width="18" height="22" fill="url(#glass)"/>
+      <rect x="694" y="360" width="18" height="22" fill="url(#glass)"/>
+      <rect x="642" y="394" width="18" height="22" fill="url(#glass)"/>
+      <rect x="668" y="394" width="18" height="22" fill="url(#glass)"/>
+      <rect x="694" y="394" width="18" height="22" fill="url(#glass)"/>
+    </g>
+    <g>
+      <polygon points="780,328 840,294 900,328 900,620 780,620" fill="#dfeaf3"/>
+      <polygon points="900,328 900,620 780,620" fill="#b2c0cf" opacity="0.82"/>
+      <polygon points="900,328 944,310 944,620 900,620" fill="#536775" opacity="0.9"/>
+      <rect x="802" y="360" width="18" height="22" fill="url(#glass)"/>
+      <rect x="828" y="360" width="18" height="22" fill="url(#glass)"/>
+      <rect x="854" y="360" width="18" height="22" fill="url(#glass)"/>
+      <rect x="802" y="400" width="18" height="22" fill="url(#glass)"/>
+      <rect x="828" y="400" width="18" height="22" fill="url(#glass)"/>
+      <rect x="854" y="400" width="18" height="22" fill="url(#glass)"/>
+      <rect x="802" y="440" width="18" height="22" fill="url(#glass)"/>
+      <rect x="828" y="440" width="18" height="22" fill="url(#glass)"/>
+      <rect x="854" y="440" width="18" height="22" fill="url(#glass)"/>
+    </g>
+    <g>
+      <polygon points="432,378 480,348 530,378 530,620 432,620" fill="#dfe6ee"/>
+      <polygon points="530,378 530,620 432,620" fill="#aebbc7" opacity="0.8"/>
+      <polygon points="530,378 566,360 566,620 530,620" fill="#646f7d" opacity="0.85"/>
+      <rect x="450" y="412" width="18" height="22" fill="url(#glass)"/>
+      <rect x="474" y="412" width="18" height="22" fill="url(#glass)"/>
+      <rect x="498" y="412" width="18" height="22" fill="url(#glass)"/>
+      <rect x="450" y="454" width="18" height="22" fill="url(#glass)"/>
+      <rect x="474" y="454" width="18" height="22" fill="url(#glass)"/>
+      <rect x="498" y="454" width="18" height="22" fill="url(#glass)"/>
+    </g>
+  </g>
+
+  <g filter="url(#streetShadow)">
+    <rect x="0" y="430" width="1200" height="18" fill="#3d3d3d"/>
+    <rect x="0" y="440" width="1200" height="260" fill="url(#road)"/>
+    <rect x="0" y="440" width="1200" height="260" fill="#000000" opacity="0.18"/>
+    <g opacity="0.9" stroke="#f3d673" stroke-width="5">
+      <line x1="120" y1="560" x2="214" y2="560"/>
+      <line x1="306" y1="575" x2="400" y2="575"/>
+      <line x1="512" y1="560" x2="604" y2="560"/>
+      <line x1="748" y1="575" x2="840" y2="575"/>
+      <line x1="989" y1="560" x2="1068" y2="560"/>
+    </g>
+    <g opacity="0.22" stroke="#d4d4d4" stroke-width="2">
+      <line x1="120" y1="440" x2="120" y2="700"/>
+      <line x1="600" y1="440" x2="600" y2="700"/>
+      <line x1="1060" y1="440" x2="1060" y2="700"/>
+    </g>
+  </g>
+
+  <g opacity="0.95">
+    <g transform="translate(160 540)">
+      <rect x="-8" y="-60" width="6" height="60" fill="#2e3740"/>
+      <circle cx="-5" cy="-67" r="11" fill="#f7e7b5"/>
+      <circle cx="-5" cy="-67" r="18" fill="#f7e7b5" opacity="0.18"/>
+    </g>
+    <g transform="translate(420 540)">
+      <rect x="-8" y="-60" width="6" height="60" fill="#2e3740"/>
+      <circle cx="-5" cy="-67" r="11" fill="#f7e7b5"/>
+      <circle cx="-5" cy="-67" r="18" fill="#f7e7b5" opacity="0.18"/>
+    </g>
+    <g transform="translate(760 540)">
+      <rect x="-8" y="-60" width="6" height="60" fill="#2e3740"/>
+      <circle cx="-5" cy="-67" r="11" fill="#f7e7b5"/>
+      <circle cx="-5" cy="-67" r="18" fill="#f7e7b5" opacity="0.18"/>
+    </g>
+    <g transform="translate(1050 540)">
+      <rect x="-8" y="-60" width="6" height="60" fill="#2e3740"/>
+      <circle cx="-5" cy="-67" r="11" fill="#f7e7b5"/>
+      <circle cx="-5" cy="-67" r="18" fill="#f7e7b5" opacity="0.18"/>
+    </g>
+    <g transform="translate(575 635)">
+      <rect x="-14" y="-8" width="28" height="8" rx="3" fill="#7e5d46"/>
+      <rect x="-18" y="-20" width="36" height="12" rx="3" fill="#8c6c52"/>
+      <rect x="-2" y="-4" width="4" height="12" fill="#5a473d"/>
+    </g>
+    <g transform="translate(845 635)">
+      <rect x="-14" y="-8" width="28" height="8" rx="3" fill="#7e5d46"/>
+      <rect x="-18" y="-20" width="36" height="12" rx="3" fill="#8c6c52"/>
+      <rect x="-2" y="-4" width="4" height="12" fill="#5a473d"/>
+    </g>
+  </g>
+
+  <g opacity="0.94">
+    <g transform="translate(300 620)">
+      <rect x="-12" y="-92" width="6" height="92" fill="#2d3740"/>
+      <rect x="-36" y="-76" width="82" height="54" rx="6" fill="#d5d9dd"/>
+      <rect x="-28" y="-66" width="66" height="34" rx="5" fill="#eef2f6"/>
+      <rect x="-4" y="-52" width="8" height="20" fill="#687a86"/>
+      <rect x="-20" y="-18" width="40" height="6" rx="2" fill="#8a6a52"/>
+      <rect x="-36" y="-18" width="10" height="18" fill="#7d5f4b"/>
+      <rect x="26" y="-18" width="10" height="18" fill="#7d5f4b"/>
+    </g>
+    <g transform="translate(520 620)">
+      <rect x="-12" y="-92" width="6" height="92" fill="#2d3740"/>
+      <rect x="-36" y="-76" width="82" height="54" rx="6" fill="#d5d9dd"/>
+      <rect x="-28" y="-66" width="66" height="34" rx="5" fill="#eef2f6"/>
+      <rect x="-4" y="-52" width="8" height="20" fill="#687a86"/>
+      <rect x="-20" y="-18" width="40" height="6" rx="2" fill="#8a6a52"/>
+      <rect x="-36" y="-18" width="10" height="18" fill="#7d5f4b"/>
+      <rect x="26" y="-18" width="10" height="18" fill="#7d5f4b"/>
+    </g>
+    <g transform="translate(95 560)">
+      <rect x="0" y="-90" width="6" height="90" fill="#2ea1d8"/>
+      <rect x="-18" y="-28" width="42" height="16" rx="4" fill="#f5cf68"/>
+      <rect x="-18" y="-44" width="42" height="16" rx="4" fill="#f5cf68"/>
+      <rect x="-18" y="-60" width="42" height="16" rx="4" fill="#f5cf68"/>
+      <rect x="-18" y="-60" width="10" height="12" fill="#54606a"/>
+      <rect x="14" y="-60" width="10" height="12" fill="#54606a"/>
+    </g>
+    <g transform="translate(1100 560)">
+      <rect x="0" y="-90" width="6" height="90" fill="#2ea1d8"/>
+      <rect x="-18" y="-28" width="42" height="16" rx="4" fill="#f5cf68"/>
+      <rect x="-18" y="-44" width="42" height="16" rx="4" fill="#f5cf68"/>
+      <rect x="-18" y="-60" width="42" height="16" rx="4" fill="#f5cf68"/>
+      <rect x="-18" y="-60" width="10" height="12" fill="#54606a"/>
+      <rect x="14" y="-60" width="10" height="12" fill="#54606a"/>
+    </g>
+    <g transform="translate(680 642)">
+      <rect x="-14" y="-8" width="28" height="8" rx="3" fill="#7e5d46"/>
+      <rect x="-18" y="-20" width="36" height="12" rx="3" fill="#8c6c52"/>
+      <rect x="-2" y="-4" width="4" height="12" fill="#5a473d"/>
+    </g>
+    <g transform="translate(930 642)">
+      <rect x="-14" y="-8" width="28" height="8" rx="3" fill="#7e5d46"/>
+      <rect x="-18" y="-20" width="36" height="12" rx="3" fill="#8c6c52"/>
+      <rect x="-2" y="-4" width="4" height="12" fill="#5a473d"/>
+    </g>
+    <g transform="translate(850 648)">
+      <rect x="-40" y="-8" width="80" height="18" rx="8" fill="#5d7c5c"/>
+      <rect x="-12" y="-26" width="24" height="18" fill="#4f6b4f"/>
+    </g>
+    <g transform="translate(360 648)">
+      <rect x="-40" y="-8" width="80" height="18" rx="8" fill="#5d7c5c"/>
+      <rect x="-12" y="-26" width="24" height="18" fill="#4f6b4f"/>
+    </g>
+  </g>
+
+  <g>
+    <g transform="translate(230 580)">
+      <ellipse cx="0" cy="18" rx="54" ry="16" fill="#1d1d1d" opacity="0.45"/>
+      <rect x="-44" y="-10" width="88" height="28" rx="8" fill="url(#carRed)"/>
+      <rect x="-26" y="-28" width="52" height="20" rx="6" fill="#f2f2f2"/>
+      <rect x="-16" y="-32" width="32" height="12" rx="4" fill="#d7e0e8"/>
+      <circle cx="-24" cy="20" r="10" fill="#1a1a1a"/>
+      <circle cx="24" cy="20" r="10" fill="#1a1a1a"/>
+      <circle cx="-24" cy="20" r="5" fill="#d3d3d3"/>
+      <circle cx="24" cy="20" r="5" fill="#d3d3d3"/>
+    </g>
+
+    <g transform="translate(640 595)">
+      <ellipse cx="0" cy="18" rx="58" ry="16" fill="#1d1d1d" opacity="0.5"/>
+      <rect x="-48" y="-10" width="96" height="30" rx="8" fill="url(#carBlue)"/>
+      <rect x="-30" y="-28" width="60" height="18" rx="6" fill="#e8eef5"/>
+      <rect x="-10" y="-33" width="20" height="10" rx="4" fill="#d0d9e3"/>
+      <circle cx="-28" cy="20" r="10" fill="#1a1a1a"/>
+      <circle cx="28" cy="20" r="10" fill="#1a1a1a"/>
+      <circle cx="-28" cy="20" r="5" fill="#d4d4d4"/>
+      <circle cx="28" cy="20" r="5" fill="#d4d4d4"/>
+    </g>
+
+    <g transform="translate(930 610)">
+      <ellipse cx="0" cy="18" rx="60" ry="16" fill="#1d1d1d" opacity="0.48"/>
+      <rect x="-50" y="-10" width="100" height="30" rx="8" fill="url(#carSilver)"/>
+      <rect x="-32" y="-28" width="64" height="18" rx="6" fill="#edf3f8"/>
+      <rect x="-12" y="-33" width="24" height="10" rx="4" fill="#dae3ea"/>
+      <circle cx="-30" cy="20" r="10" fill="#1a1a1a"/>
+      <circle cx="30" cy="20" r="10" fill="#1a1a1a"/>
+      <circle cx="-30" cy="20" r="5" fill="#d7d7d7"/>
+      <circle cx="30" cy="20" r="5" fill="#d7d7d7"/>
+    </g>
+  </g>
+
+  <g fill="#4a7d39">
+    <rect x="120" y="602" width="18" height="44"/>
+    <circle cx="129" cy="590" r="34"/>
+    <rect x="318" y="610" width="16" height="36"/>
+    <circle cx="326" cy="598" r="29"/>
+    <rect x="760" y="610" width="18" height="42"/>
+    <circle cx="769" cy="600" r="32"/>
+    <rect x="1088" y="604" width="18" height="42"/>
+    <circle cx="1097" cy="592" r="32"/>
+  </g>
+
+  <g fill="#d4d4d4">
+    <rect x="16" y="570" width="12" height="40"/>
+    <rect x="1172" y="570" width="12" height="40"/>
+    <rect x="558" y="614" width="16" height="18"/>
+    <rect x="612" y="614" width="16" height="18"/>
+  </g>
+
+  <g opacity="0.12">
+    <rect x="0" y="610" width="1200" height="90" fill="#b9d8ad"/>
+  </g>
+</svg>
